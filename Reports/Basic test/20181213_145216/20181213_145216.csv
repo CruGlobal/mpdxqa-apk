@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic test,,,2018-12-13 14:52:17,2018-12-13 14:52:19,1.233s,FAILED
+,,,,,,
+Test Cases/Android Log In,,,2018-12-13 14:52:18,2018-12-13 14:52:18,0.411s,FAILED
+startApplication,,,2018-12-13 14:52:18,2018-12-13 14:52:18,0.150s,FAILED
+,,,,,,
+Test Cases/Android create task,,,2018-12-13 14:52:18,2018-12-13 14:52:18,0.261s,FAILED
+tap,,,2018-12-13 14:52:18,2018-12-13 14:52:18,0.095s,PASSED
+,,,,,,
+Test Cases/Android Log Out,,,2018-12-13 14:52:18,2018-12-13 14:52:19,0.163s,PASSED
+closeApplication,,,2018-12-13 14:52:19,2018-12-13 14:52:19,0.015s,PASSED

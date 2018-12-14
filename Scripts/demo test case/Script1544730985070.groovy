@@ -13,30 +13,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('android.widget.ImageButton0'), 0)
+Mobile.startApplication('kobiton-store:21961', true)
 
-Mobile.tap(findTestObject('android.widget.ImageButton0 (1)'), 0)
+Mobile.tap(findTestObject('android.widget.Button0 - get started (2)'), 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 - enter a task subject'), 'Test task subject', 0)
+Mobile.setText(findTestObject('android.widget.EditText0 (6)'), '1111', 0)
 
-Mobile.tap(findTestObject('android.widget.EditText0 - enter a task subject'), 0)
-
-Mobile.tap(findTestObject('android.widget.TextView12 - Text Message'), 0)
-
-not_run: Mobile.tap(findTestObject('android.widget.TextView8 - date'), 0)
-
-not_run: Mobile.tap(findTestObject('android.view.View18 - 18'), 0)
-
-not_run: Mobile.tap(findTestObject('android.widget.Button1 - OK'), 0)
-
-not_run: Mobile.tap(findTestObject('android.widget.EditText1 - add comment'), 0)
-
-not_run: Mobile.setText(findTestObject('android.widget.EditText0 - add comment'), 'So what do you think of this task add test?', 
-    0)
-
-not_run: Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('android.widget.TextView1 - ADD'), 0)
+Mobile.tap(findTestObject('android.widget.Button0 - confirm pin (2)'), 0)
 
 Mobile.switchToPortrait()
+
+Mobile.switchToPortrait()
+
+Mobile.setText(findTestObject('android.widget.EditText0 (7)'), 'test@test.com', 0)
+
+Mobile.setText(findTestObject('android.widget.EditText1 (2)'), 'Test1234', 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - SIGN IN (2)'), 0)
+
+Mobile.switchToPortrait()
+
+Mobile.tap(findTestObject('android.widget.Button0 - AUTHORIZE (2)'), 0)
+
+Mobile.switchToPortrait()
+
+Mobile.switchToPortrait()
+
+Mobile.setText(findTestObject('android.widget.EditText0 (8)'), '1111', 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - unlock with pin (2)'), 0)
+
+Mobile.switchToPortrait()
+
+Mobile.switchToPortrait()
+
+Mobile.closeApplication()
 
